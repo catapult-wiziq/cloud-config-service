@@ -1,0 +1,17 @@
+management:
+  port: 9003
+info:
+  nameV: "kjdfjsfdjaksdj"
+  tthird: 3
+  name: "sdfsf@project.artifactId@"
+  discription: "@project.description@"
+  tfirst: 4
+
+zuul:
+  ignoredServices: "*"
+  routes:
+    course1:
+      path: /course/**
+      service-id: COURSE-COMPOSITE-SERVICE
+
+

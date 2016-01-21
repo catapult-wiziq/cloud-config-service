@@ -1,0 +1,5 @@
+management:
+  port: 9004
+info:
+  name: "@project.artifactId@"
+  discription: "@project.description@"
