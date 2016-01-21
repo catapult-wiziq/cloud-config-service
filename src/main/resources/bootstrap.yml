@@ -18,6 +18,13 @@ spring:
         server:
           native:
             search-locations: classpath:config/
+
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${EUREKA_INSTANCE_HOSTNAME}:${EUREKA_PORT}/eureka/
+
 ---
 spring:
   profiles: dev
