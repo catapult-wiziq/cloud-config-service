@@ -1,1 +1,1 @@
-cmd: bash app.sh
+cmd: /bin/bash app.sh
