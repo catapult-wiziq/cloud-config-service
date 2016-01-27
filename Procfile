@@ -1,1 +1,1 @@
-worker: ./app.sh
+worker: bash app.sh
