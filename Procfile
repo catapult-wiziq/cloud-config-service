@@ -1,1 +1,2 @@
-web: bash app.sh
+web: ./app.sh
+cmd: bash app.sh
